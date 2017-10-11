@@ -31,7 +31,11 @@ body {
 }
 
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
@@ -98,7 +102,7 @@ audio {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
   background-color: red;
 }
 
@@ -152,5 +156,9 @@ audio {
   body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  }
+  #primary{
+    width: 64.28571428%; /*450 / 700 = 0.6428571429*/
+    float: left;
   }
 }
