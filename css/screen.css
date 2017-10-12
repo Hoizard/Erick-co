@@ -28,6 +28,7 @@ body {
   padding-top: 3.667em; /* 66 / 18 = 3.667... */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  background-color: #90AFC5;
 }
 
 
@@ -102,7 +103,7 @@ audio {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: red;
+  background-color: #red;
 }
 #navigation li {
   float: left;
@@ -116,8 +117,8 @@ audio {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: black;
-  background-color: red;
+  color: white;
+  background-color: #2A3132;
 }
 .flexbox #navigation ul {
   display: flex;
