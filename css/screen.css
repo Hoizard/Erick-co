@@ -149,6 +149,11 @@ figcaption {
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+#home #nav-home,
+#resume #nav-resume,
+#interest #nav-interest {
+  background-color: #763626;
+}
 
 #navigation ul,
 #navigation li {
