@@ -43,13 +43,10 @@ p {
 
 ul {
   padding-left: 1.2em; /* 24 / 29 = 1.2 */
-}
-
-ul ul {
   padding-bottom: 1.2em; /* 24 / 29 = 1.2 */
-  padding-left: 1.2em; /* 24 / 29 = 1.2 */
   list-style-type: disc;
 }
+
 
 h1 {
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
@@ -71,9 +68,7 @@ ol, ul {
 ol {
   list-style-type: decimal;
 }
-ul {
-  list-style-type: square;
-}
+
 li ol,
 li ul {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
