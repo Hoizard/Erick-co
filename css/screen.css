@@ -96,6 +96,7 @@ audio {
   max-width: 90%;
 }
 figcaption {
+  font-size: 0.75em; /* 15 / 20 = 0.75 */
   text-align: center;
 }
 /* Layout Styles */
@@ -178,12 +179,13 @@ figcaption {
     Secondary modul: 200px;
   */
   body {
-    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-right: 9.302325581%; /* 80 / 860 = 0.104651162790698% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
   #primary {
     width: 64.28571428%; /*450 / 700 = 0.6428571429*/
     float: left;
+    
   }
 
 }
