@@ -114,9 +114,10 @@ figcaption {
   background-color: #2A3132;
 }
 #navigation li {
+  list-style-type: none;
   float: left;
   width: 33.3333333333%;
-  background-color: green;
+  padding-bottom: 0;
 }
 #navigation a {
   display: block;
@@ -127,13 +128,6 @@ figcaption {
   text-decoration: none;
   color: white;
   background-color: #2A3132;
-}
-.flexbox #navigation ul {
-  display: flex;
-}
-.flexbox #navigation li {
-  float: none;
-  width: 33.3333333333%;
 }
 
 /* Modular Styles */
@@ -150,11 +144,6 @@ figcaption {
   background-color: #763626;
 }
 
-#navigation ul,
-#navigation li {
-  list-style-type: none;
-  padding-bottom: 0;
-}
 
 
 /* State Styles */
