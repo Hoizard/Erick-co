@@ -1,8 +1,10 @@
-function ringDoorbell() {
-  var doorbell = new Audio('media/doorbell.mp3');
-  doorbell.play();
-}
+$.noConflict();
 
-ringbell.addEventListener("click", function(){
-  ringDoorbell();
-});
+(function($) {
+  var doorbell = new Audio('media/doorbell.mp3');
+
+  $('#doorbell').on('click', function() {
+    doorbell.play();
+  });
+
+})(jQuery);
