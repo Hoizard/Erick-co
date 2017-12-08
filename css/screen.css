@@ -182,9 +182,15 @@ figcaption {
     padding-right: 9.302325581%; /* 80 / 860 = 0.104651162790698% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
+  main, header {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
   #primary {
     width: 64.28571428%; /*450 / 700 = 0.6428571429*/
     float: left;
   }
-
-}
+  #content {
+    width: 60%;
+    float: left;
+  }
