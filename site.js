@@ -13,9 +13,12 @@ $.noConflict();
     music.play();
   }
 
-  $('#artist').remove();
+  $('#music').remove(); // remove the HTML
+  $('#click').append('<li>Press S to Pause/Resume.</i>');
 
-
+  $('#artist').hover(function() {
+    $('#artist').attr('src', 'Images/coloring-book-poster.jpg');
+  },
   function()
   {
     $('#artist').attr('src', 'Images/coloring-book-poster.jpg');
